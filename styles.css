@@ -1,0 +1,225 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  color: rgb(48, 48, 48);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.row1,.row3,.row4  {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(203, 198, 198);
+}
+
+.row2, .row5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.row1, .row4 {
+  background-color: rgb(222, 246, 255);
+}
+
+
+#AppSon {
+  color: rgb(0, 109, 255);
+  font-weight: bold;
+  position: absolute;
+  font-size: 24px;
+}
+
+.container1, .container2, .container3, .container4 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container1 {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.container3 {
+  padding-bottom: 100px;
+}
+
+.container4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content1-right, .content1-left {
+  width: 44%;
+}
+
+.add-user img {
+  width: 100%;
+}
+
+p {
+  color: rgb(152, 152, 152);
+}
+
+.mail-div {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 40px;
+  border-color:  rgb(0, 109, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.mail-div input {
+  border: none;
+  text-decoration: none;
+  border-style: none;
+  margin: none;
+  padding: none;
+  height:38px;
+  border-radius: 40px 0px 0px 40px;
+  width: 70%;
+  padding-left: 25px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button:focus {
+  outline:none;
+}
+
+button {
+  border: none;
+  background-color: rgb(0, 109, 255);
+  color: white;
+  height: 38;
+  width: 24.1%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 0px 40px 40px 0px;
+  cursor: pointer;
+}
+
+.content2-right, .content2-left {
+  width: 42%;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.messages img {
+  width: 480px;
+  height: 220px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: rgb(0, 109, 255);
+  font-weight: bold;
+}
+
+.fast-loading img {
+  width: 480px;
+  height: 220px;
+}
+
+.screenshots {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.screenshots p {
+  text-align: center;
+}
+
+.container4 {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.carousel {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.carousel img {
+  width: 300px;
+  height: 200px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  width: 7%;
+}
+
+.selected-slider {
+  padding-top: 4px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 4px;
+  background-color: rgb(0, 109, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider {
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  background-color: rgb(194, 190, 190);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container5 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+
+  .container1, .container2, .container3, .container4 {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  .row1, .row2, .row3, .row4, .row5 {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .container1, .container2, .container3, .container4 {
+    width: 100%;
+  }
+
+}
